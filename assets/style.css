@@ -16,7 +16,7 @@
   }
 
   body {
-    font-family: 'Noto Sans HK', sans-serif;
+    font-family: 'Karla', sans-serif;
     color: rgb(120,120,125);
   }
 
@@ -52,7 +52,7 @@
   h2, h3, h4, h5, h6 {
     line-height: 1;
     margin-bottom: 0.8rem;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Averia Serif Libre', cursive;
   }
 
   h2  { font-size: 2.2rem;  }

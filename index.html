@@ -1,36 +1,29 @@
 ---
 layout: default
 ---
-<!-- HOMEPAGE/TOP GALLERY -->
-<section class="padded centered">
+<!-- HOMEPAGE/SLIDESHOW -->
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="food1.jpg" style="width:100%">
+  <img class="mySlides" src="food2.jpg" style="width:100%">
+  <img class="mySlides" src="food3.jpg" style="width:100%">
+</div>
 
-    <div class="popup-gallery masonry">
+<script>
+var myIndex = 0;
+carousel();
 
-      <a class="item" href="/images/mountain.jpg" title="this is where you write the caption">
-        <img src='/images/mountain.jpg'>
-      </a>
-
-      <a class="item" href="/images/adventure.jpg" title="this is where you write the caption">
-        <img src='/images/adventure.jpg'>
-      </a>
-      <a class="item" href="/images/pencils.jpg" title="this is where you write the caption">
-        <img src='/images/pencils.jpg'>
-      </a>
-      <a class="item" href="/images/cocktail.jpg" title="this is where you write the caption">
-        <img src='/images/cocktail.jpg'>
-      </a>
-      <a class="item" href="/images/person.png" title="this is where you write the caption">
-        <img src='/images/person.png'>
-      </a>
-      <a class="item" href="/images/laptop.jpg" title="this is where you write the caption">
-        <img src='/images/laptop.jpg'>
-      </a>
-
-      <a class="item" href="/images/lego.jpg" title="this is where you write the caption">
-        <img src='/images/lego.jpg'>
-      </a>
-    </div>
-</section>
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
 
 <!-- FIRST TEXT SECTION -->
 <section class="grid-centered padded centered">
