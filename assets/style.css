@@ -18,6 +18,7 @@
   body {
     font-family: 'Karla', sans-serif;
     color: #7A4366;
+    /* background-color: #fff0eb; */
   }
 
    /* this overrides the default padding and margin on gridlex elements */
@@ -31,7 +32,7 @@
   .right    {  text-align: right;    }
   .centered {  text-align: center;   }
 
-  .padded   {  padding: 5%;    }
+  .padded   {  padding: 2% 5% 2% 5%;    }
   .padded-1 {  padding: 1rem;  }
   .padded-2 {  padding: 2rem;  }
 
@@ -320,10 +321,10 @@
 
   .banner,
   .banner-with-header {
-    background-image: url('../images/adventure.jpg');
+    background-image: url('../images/food2.jpg');
     background-size: cover;
     background-position: center;
-    min-height: 80vh;
+    min-height: 40vh;
   }
 
   .fixed {
@@ -372,8 +373,8 @@
   }
 
   .hover-overlay:hover {
-    background-color: rgba(60, 60, 60, 0.7);
-    color: white;
+    background-color: rgba(174, 30, 83, 0.8);
+    color: #fff0eb;
   }
 
   .hover-inner {
