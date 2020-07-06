@@ -1,2 +1,10 @@
 /* Slideshow */
 .mySlides {display:none;}
+.w3-section,{margin-top:16px!important;margin-bottom:16px!important}
+.w3-content{margin-left:auto;margin-right:auto}
+.w3-content{max-width:980px}
+
+/* SOCIAL LINKS/ICONS */
+.fab {
+  font-size: 1.8rem;
+}
