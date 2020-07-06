@@ -11,13 +11,11 @@ function carousel() {
   slideIndex++;
   if (slideIndex > x.length) {slideIndex = 1}
   x[slideIndex-1].style.display = "block";
-  setTimeout(carousel, 4000); // Change image every 2 seconds
+  setTimeout(carousel, 10000); // Change image every 2 seconds
 }
-
 // END SLIDESHOW
 
 // HAMBURGER MENU - OLD
-
 $(document).ready(function() {
 	//make sure the page is ready befor running the scripts
 	// This is the hamburger menu
