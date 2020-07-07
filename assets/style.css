@@ -17,7 +17,7 @@
 
   body {
     font-family: 'Karla', sans-serif;
-    color: #7A4366;
+    color: black;
     /* background-color: #fff0eb; */
   }
 
@@ -54,6 +54,7 @@
     line-height: 1;
     margin-bottom: 0.8rem;
     font-family: 'Averia Serif Libre', cursive;
+    color: #7A4366;
   }
 
   h2  { font-size: 2.2rem;  }
@@ -203,7 +204,11 @@
   header nav a,
   .inline a {
     display: inline-block;
-    padding: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    font-family: 'Averia Serif Libre', cursive;
+    font-weight: 700;
+    color: #7A4366;
   }
   nav a:hover {
     color: #AE1E53;

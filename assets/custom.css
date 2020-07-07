@@ -1,12 +1,18 @@
 /* Slideshow */
 .mySlides {display:none;}
 .w3-section,{margin-top:16px!important;margin-bottom:16px!important}
-.w3-content{margin-left:auto;margin-right:auto}
-.w3-content{max-width:980px}
+.w3-content{margin-left:auto;margin-right:auto;}
+.w3-content{max-width:100%;}
 .w3-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
 
 
 /* SOCIAL LINKS/ICONS */
 .fab, .fas{
   font-size: 1.8rem;
+}
+
+/* Menus */
+
+h3.menus{
+  color: (0, 0, 0, 0);
 }
