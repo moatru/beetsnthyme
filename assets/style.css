@@ -208,10 +208,14 @@
   .inline a {
     display: inline-block;
     padding: 0.5rem 2.6rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-family: 'Averia Serif Libre', cursive;
     font-weight: 700;
     color: #570100;
+    text-transform: uppercase;
+    transition:all 1s;
+    /* text-shadow: 3px 3px rgba(195, 191, 188, 0.6); */
+
   }
   nav a:hover {
     color: #AE1E53;
@@ -542,6 +546,15 @@
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 20px 25px -5px rgba(122, 67, 102, 0.2), 0 10px 10px -5px rgba(122, 67, 102, 0.2);
+  }
+
+  .card2 {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 20px 25px -5px rgba(122, 67, 102, 0.2), 0 10px 10px -5px rgba(122, 67, 102, 0.2);
+    /* float: right; */
+    /* width: 100vh; */
   }
 
   .profile {
