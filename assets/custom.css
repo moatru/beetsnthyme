@@ -10,14 +10,14 @@ header {
 }
 
 footer {
-  background-color: #FFF0EB;
+  background-color: #FFFFF;
 }
 
 /* TESTIMONIALS */
 .banner-test1 {
   background-image: url('../images/food7.jpg');
   background-size: contain;
-  background-position: 75% 50%;
+  background-position: 90% 50%;
   background-repeat: no-repeat;
 
 }
@@ -25,7 +25,7 @@ footer {
 .banner-test2 {
   background-image: url('../images/food7.jpg');
   background-size: contain;
-  background-position: 5% 50%;
+  background-position: 10% 50%;
   background-repeat: no-repeat;
 
 }
@@ -47,5 +47,11 @@ h3.menus{
 /* SOCIAL LINKS/ICONS */
 .fab, .fas{
   font-size: 1.8rem;
-  color: #C4B6C1;
+  color: #570100;
+  transition: all 1s;
+}
+
+.fab:hover, .fas:hover{
+  color: #7A4366;
+  transition: all 1s;
 }

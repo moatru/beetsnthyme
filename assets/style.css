@@ -18,7 +18,7 @@
   body {
     font-family: 'Karla', sans-serif;
     color: #251A18;
-    background-color: #E6EAD6;
+    background-color:#FFFFF;
   }
 
    /* this overrides the default padding and margin on gridlex elements */
@@ -31,6 +31,7 @@
   .left     {  text-align: left;     }
   .right    {  text-align: right;    }
   .centered {  text-align: center;   }
+  .justify {   text-align: justify;   }
 
   .padded   {  padding: 2% 5% 2% 5%;    }
   .padded-1 {  padding: 1rem;  }
@@ -43,7 +44,7 @@
 
   .dark-bg      {  background-color: #8CB771; color:#FFF0EB;     }
   .light-bg     {  background-color: #E6EAD6;  }
-  .featured-bg  {  background-color: #8CB771;       }
+  .featured-bg  {  background-color: #E6EAD6;       }
 
   .light-text   { color: white; }
   .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
@@ -57,9 +58,11 @@
     color: #570100;
   }
 
-  h2  { font-size: 2.2rem;  }
-  h3  { font-size: 1.8rem;  }
+  h2  { font-size: 2rem;  }
+  h3  { font-size: 2rem; color: #251A18;  }
   h4  { font-size: 1.4rem;  }
+  h5 {font-size: 1.4rem; color: #251A18;}
+  h6 {font-size: 1.2rem; color: #251A18;}
   p   { font-size: 1rem;  }
 
   p, ul {
@@ -130,8 +133,8 @@
   .button-solid,
   .button-inverted {
     text-decoration: none;
-    color: white;
-    background-color: #C4B6C1;
+    color: #FFF0EB;
+    background-color: #AE1E53;
     /* border: 2px solid; */
     padding: 0.6rem 2rem;
     margin-top: 1rem;
@@ -146,7 +149,7 @@
   }
 
   .button:hover {
-    background-color: #AE1E53;
+    background-color: #C4B6C1;
   }
 
   .button.inverted {   /* this is for a button on a dark background */
@@ -491,20 +494,25 @@
     border: 2px solid #C4B6C1;
     padding: 0.8em;
     display: block;
+    color: #251A18;
+    background-color: #FFF0EB;
     width: 100%;
     font-size: 1rem;
     vertical-align: top;
+    font-family: 'Karla', sans-serif;
   }
 
   input:focus,
   textarea:focus {
     outline: none;
+    color: #251A18;
     border: 2px solid #AE1E53;
     /* featured color */
   }
 
   textarea {
     min-height: 7em;
+    color:#AE1E53;
   }
 
   input[type="submit"] {
@@ -543,14 +551,14 @@
 
   .card {
     padding: 2rem;
-    background-color: white;
+    background-color:  #8CB771;
     border-radius: 5px;
     box-shadow: 0 20px 25px -5px rgba(122, 67, 102, 0.2), 0 10px 10px -5px rgba(122, 67, 102, 0.2);
   }
 
   .card2 {
     padding: 2rem;
-    background-color: white;
+    background-color:  #8CB771;
     border-radius: 5px;
     box-shadow: 0 20px 25px -5px rgba(122, 67, 102, 0.2), 0 10px 10px -5px rgba(122, 67, 102, 0.2);
     /* float: right; */
