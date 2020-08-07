@@ -723,6 +723,12 @@
   transform: rotateZ(45deg);
 }
 
+/* This media query kicks into action at the gridlex m breakpoint */
+@media(max-width:1024px) {
+	header nav a{
+    padding: .5rem 1.8rem;
+  }
+
 /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
 
@@ -746,6 +752,12 @@
   }
   .flex-flip{
     flex-direction: row;
+  }
+
+  .justify{ text-align: center}
+
+  .banner {
+    min-height: 30vh;
   }
 
 } /* end media query */
