@@ -1,3 +1,18 @@
+// HAMBURGER MENU - NEW
+$( document ).ready(function() {
+   $(".burger-button").click(function(){
+     $(".burger-button").toggleClass("active");
+     $(".burger-menu").slideToggle();
+   });
+
+  $(".burger-menu").click(function(){
+    $(".burger-button").toggleClass("active");
+    $(".burger-menu").slideToggle();
+  });
+});
+	// end hamburger menu
+
+
 // IMAGE SLIDSHOW HOMEPAGE
 var slideIndex = 0;
 carousel();
@@ -15,19 +30,7 @@ function carousel() {
 }
 // END SLIDESHOW
 
-// HAMBURGER MENU - NEW
-$( document ).ready(function() {
-   $(".burger-button").click(function(){
-     $(".burger-button").toggleClass("active");
-     $(".burger-menu").slideToggle();
-   });
 
-  $(".burger-menu").click(function(){
-    $(".burger-button").toggleClass("active");
-    $(".burger-menu").slideToggle();
-  });
-});
-	// end hamburger menu
 
   // This is the pop-up gallery
 //   	$('.popup-gallery').magnificPopup({

@@ -218,6 +218,7 @@
     color: #570100;
     text-transform: uppercase;
     transition:all 1s;
+    z-index: 11;
     /* text-shadow: 3px 3px rgba(195, 191, 188, 0.6); */
 
   }
@@ -285,92 +286,40 @@
 
 
   /* Hamburger Menu */
-  /* this is where you style the button if you want to add more space between the spans than add padding to this div but make sure you also add it to the top and bottom active classes on there top/bottom or else your cross wont line up*/
-.burger-button {
-  position:fixed;
-  top: 2vh;
-  right: 2vh;
-  z-index: 9999999999;
-  padding: 8px;
-}
-/*this is where you can chand the color of the buttons*/
-.burger-button span{
-  width: 25px;
-  border: 2px solid black;
-  background-color: black;
-  display: block;
-  border-radius: 22px;
-  transition: 2s;
-}
-.burger-button.active span{
-  border-color: #383;
-  background-color:#383;
-}
 
-.burger-top, .burger-bottom{
-  position: absolute;
-}
-
-.burger-top{
-  top: 02px;
-}
-
-.burger-bottom{
-  bottom: 02px;
-}
-/* make sure this has the same top as the burger button has padding*/
-.burger-button.active .burger-top{
-  position: absolute;
-  top: 8px;
-  transform: rotateZ(45deg);
-}
-
-.burger-button.active .burger-middle{
-  transform: rotateZ(270deg);
-  border-color: rgba(0,0,0,0);
-  background-color:rgba(0,0,0,0);
-}
-
-/* make sure this has the same bottom as the burger button has padding*/
-
-.burger-button.active .burger-bottom{
-  position: absolute;
-  bottom: 8px;
-  transform: rotateZ(-45deg);
-}
-
-
-.burger-menu {
+.hamburger,
+  .mobile-menu {
     display: none;
-    position: fixed;
+  }
+
+  .hamburger {
+    position: absolute;
+    top:0;
+    right:0;
+    z-index: 3;
+    font-size: 1.5rem;
+    padding:2% 5%;
+  }
+  .active {
+    color: #e67e22;
+  }
+
+  .mobile-menu {
+    position: absolute;
     top: 0;
     left:0;
-    right: 0;
+    right:0;
     bottom: 0;
-    background-color: #f9f9f9;
-    padding:5px;
-    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
-    z-index: 99999999;
-}
-
-.burger-menu a {
-  text-decoration: none;
-  padding: 15px 11px;
-  font-size: 20px;
-  font-weight: 300;
-  color: #C3BFBC;
-  font-family: 'Alegreya Sans SC', sans-serif;
-  display:block;
-  padding:5px 15px;
-  text-align:center;
-  white-space:nowrap;
-}
-
-.burger-menu li{list-style:none}
-/*
-.dropdown-nav:hover .dropdown-content {
+    background-color: rgb(60,60,65);
+    padding: 10%;
+  }
+  .mobile-menu a {
+    color: white;
+    padding: 1rem;
     display: block;
-} */
+    text-decoration: none;
+  }
+
 
 
 
@@ -783,6 +732,7 @@
 	header nav a{
     padding: .5rem 1.8rem;
   }
+}
 
 /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
@@ -800,6 +750,10 @@
 
   #body .text-bump {
     margin: -0.5rem;
+  }
+
+  header nav a{
+    padding: .5rem 1rem;
   }
 
   .capped-width {
@@ -821,8 +775,17 @@
 
 } /* end media query */
 
+@media(max-width:627px) {
+  header nav a{
+    padding: .5rem 2rem;
+  }
+
+
+}
 
 /* This media query kicks into action at the gridlex xs breakpoint */
 @media(max-width:576px) {
+  header nav a{
 
+  }
 } /* end media query */
