@@ -19,21 +19,21 @@ footer {
   background-color: #FFFFF;
 }
 
-/* TESTIMONIALS */
-.banner-test1 {
-  background-image: url('../images/food7.jpg');
+/* BOOKING ILLUSTRATIONS */
+.illustration1 {
+  background-image: url('../images/10.png');
   background-size: contain;
-  background-position: 90% 50%;
+  background-position: left bottom;
   background-repeat: no-repeat;
+  min-height: 4rem;
 
 }
 
-.banner-test2 {
-  background-image: url('../images/food7.jpg');
-  background-size: contain;
-  background-position: 10% 50%;
+.illustration2 {
+  background-image: url('../images/9.png');
+  background-size: 20%;
+  background-position: 95% top;
   background-repeat: no-repeat;
-
 }
 
 
@@ -60,4 +60,30 @@ h3.menus{
 .fab:hover, .fas:hover{
   color: #7A4366;
   transition: all 1s;
+}
+
+
+
+
+
+/* This media query kicks into action at the gridlex sm breakpoint */
+@media(max-width:768px) {
+.illustration2 {
+  background-image: url('../images/9.png');
+  background-size: 20%;
+  background-position: 85% bottom;
+  background-repeat: no-repeat;
+}
+
+}
+
+/* This media query kicks into action at the gridlex xs breakpoint */
+@media(max-width:576px) {
+  .illustration2 {
+    background-image: url('../images/9.png');
+    background-size: 20%;
+    background-position: 95% bottom;
+    background-repeat: no-repeat;
+  }
+
 }
