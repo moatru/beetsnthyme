@@ -809,7 +809,11 @@
     flex-direction: row;
   }
 
-  .justify{ text-align: center}
+  .justify {text-align: center;}
+
+  .right {text-align: center;}
+
+  .mob-center {text-align: center;}
 
   .banner {
     min-height: 25vh;
