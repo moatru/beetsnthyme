@@ -50,28 +50,35 @@
     ntent="text/html; charset=iso-8859-2" http-equiv="Content-Type">
 
     <!-- FAVICON -->
-    <link rel="shortcut icon" type="image/png" href="/images/BNT_LogoT.png">
+    <link rel="shortcut icon" type="image/png" href="/images/bntfav.png">
 
 </head>
 <body>
 
 <!-- HEADER #4 -->
-<header class="grid-center">
-
-  <nav class="col-5_md-5-middle right">
+<header class="grid-center mob-hide-header">
+<nav class="col-5-middle right">
     <a href="about"> About </a>
     <a href="services"> Services </a>
   </nav>
-  <div class="col-2_md-2-middle ">
+  <div class="col-2-middle ">
     <a href="/">
-    <img class="grid-center-middle center centered" src="/images/bnt-logo.png"  alt="Beets" />
+    <img class="grid-center-middle center centered" width="100%" src="/images/bnt-logo.png"  alt="Beets" />
     </a>
   </div>
-  <nav class="col-5_md-5-middle mob-center">
+  <nav class="col-5-middle ">
     <a href="testimonials"> Testimonials </a>
     <a href="booking"> Book </a>
   </nav>
 </header>
+
+<section class="grid desktop-hide ">
+
+  <div class="col-3 center padded ">
+    <a href="/">
+    <img class="grid-center-middle center centered" width="100%" src="/images/bnt-logo.png"  alt="Beets" />
+    </a>
+  </div>
 
 <nav class="top">
     <div class="burger-button">
@@ -83,25 +90,25 @@
       <ul>
         <li>
         <a href="/">
-        <img  src="/images/bnt-logo.png"  width="10%" alt="Beets" />
+        <img  src="/images/bnt-logo.png"  width="16%" alt="Beets" />
         </a>
         </li>
         <li>
-          <a href="#">About</a>
+          <a href="/about">About</a>
         </li>
         <li>
-          <a href="#">Services</a>
+          <a href="/services">Services</a>
         </li>
         <li>
-          <a href="#" class="on-page">Testimonials</a>
+          <a href="/testimonials" class="on-page">Testimonials</a>
         </li>
         <li>
-          <a href="#" class="on-page">Book</a>
+          <a href="/booking" class="on-page">Book</a>
         </li>
       <ul>
     </div>
   </nav>
-
+</section>
 
     {{content}}
 

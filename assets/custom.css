@@ -11,10 +11,14 @@
   margin-right: auto;
 }
 
-header{
+.desktop-hide {
+  display: none;
+}
+
+/* header{
   background-color: white;
   z-index: 9999999999;
-}
+} */
 
 
 footer {
@@ -28,7 +32,7 @@ footer {
 position:fixed;
 top: 2vh;
 right: 2vh;
-z-index: 9999999998; 
+z-index: 9999999998;
 padding: 8px;
 }
 
@@ -93,17 +97,17 @@ transform: rotateZ(-45deg);
 }
 
 .burger-menu a {
-text-decoration: none;
-padding: 15px 11px;
-font-size: 20px;
-font-weight: 300;
-color: #570100;
-text-transform: none;
-font-family: 'Averia Serif Libre', cursive;
-display:block;
-padding:5px 15px;
-text-align:center;
-white-space:nowrap;
+  text-decoration: none;
+  padding: 15px 11px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #570100;
+  text-transform: none;
+  font-family: 'Averia Serif Libre', cursive;
+  display:block;
+  padding:5px 15px;
+  text-align:center;
+  white-space:nowrap;
 }
 
 .burger-menu li{list-style:none}
@@ -155,8 +159,18 @@ h3.menus{
   transition: all 1s;
 }
 
+@media(max-width:950px) {
+.desktop-hide {
+  display: block;
+}
+
+.mob-hide-header {
+  display: none;
+}
 
 
+
+}
 
 
 /* This media query kicks into action at the gridlex sm breakpoint */
@@ -164,9 +178,10 @@ h3.menus{
 .illustration2 {
   background-image: url('../images/9.png');
   background-size: 20%;
-  background-position: 85% bottom;
+  background-position: 90% 100%;
   background-repeat: no-repeat;
 }
+
 
 }
 

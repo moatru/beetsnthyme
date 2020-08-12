@@ -217,8 +217,9 @@
     font-weight: 700;
     color: #570100;
     text-transform: uppercase;
+    background-color: white;
     transition:all 1s;
-    z-index: 11;
+    z-index: 202020202020202020;
     /* text-shadow: 3px 3px rgba(195, 191, 188, 0.6); */
 
   }
@@ -740,6 +741,7 @@
   .mob-hide {
     display: none;
   }
+  
   .hamburger{
     display: block;
   }
