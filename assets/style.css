@@ -18,7 +18,7 @@
   body {
     font-family: 'Karla', sans-serif;
     color: #251A18;
-    background-color:#FFFFF;
+    background-color: #FFFFF;
   }
 
    /* this overrides the default padding and margin on gridlex elements */
@@ -741,7 +741,7 @@
   .mob-hide {
     display: none;
   }
-  
+
   .hamburger{
     display: block;
   }

@@ -40,8 +40,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
 
     <!-- CUSTOM STYLE SHEET -->
-    <link rel="stylesheet" href="/assets/style.css"/>
-    <link rel="stylesheet" href="/assets/custom.css"/>
+    <link rel="stylesheet" href="/assets/siteredo-style.css"/>
+    <link rel="stylesheet" href="/assets/siteredo-custom.css"/>
 
     <!-- W3 Slideshow -->
     <title>W3.CSS</title>
@@ -57,26 +57,36 @@
 
 <!-- HEADER #4 -->
 <header class="grid-center mob-hide-header">
-<nav class="col-5-middle right">
-    <a href="about"> About </a>
-    <a href="services"> Services </a>
-  </nav>
-  <div class="col-2-middle ">
+  <div class="col-1-middle ">
     <a href="/">
-    <img class="grid-center-middle center centered" width="100%" src="/images/bnt-logo.png"  alt="Beets" />
+    <img class="grid-center-middle center centered" width="100%" src="/images/bntfav.png"  alt="Beets" />
     </a>
   </div>
-  <nav class="col-5-middle ">
-    <a href="testimonials"> Testimonials </a>
-    <a href="booking"> Book </a>
+<nav class="col-10-middle right">
+  <span class="dropdown-nav">
+    <a href="about"> Welcome </a>
+    <div class="dropdown-content">
+          <a href="/supreme_midwifery#about" class="editable">Garden</a>
+          <a href="/supreme_midwifery#services" class="editable">Kitchen</a>
+          <a href="#" class="editable">Studio</a>
+        </div>
+      </span>
+    <a href="services"> Classes </a>
+    <a href="testimonials"> Shop </a>
+    <a href="https://www.instagram.com/beetsnthyme/" target="_blank">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="about#contact">
+      <i class="fas fa-envelope"></i>
+    </a>
   </nav>
 </header>
 
-<section class="grid desktop-hide ">
+<section class="grid desktop-hide dark-bg ">
 
   <div class="col-3 center padded ">
     <a href="/">
-    <img class="grid-center-middle center centered" width="100%" src="/images/bnt-logo.png"  alt="Beets" />
+    <img class="grid-center-middle center centered" width="100%" src="/images/bntfav.png"  alt="Beets" />
     </a>
   </div>
 
@@ -90,21 +100,28 @@
       <ul>
         <li>
         <a href="/">
-        <img  src="/images/bnt-logo.png"  width="16%" alt="Beets" />
+        <img  src="/images/bntfav.png"  width="16%" alt="Beets" />
         </a>
         </li>
         <li>
-          <a href="/about">About</a>
+          <a href="/about">Welcome</a>
         </li>
         <li>
-          <a href="/services">Services</a>
+          <a href="/services">Classes</a>
         </li>
         <li>
-          <a href="/testimonials" class="on-page">Testimonials</a>
+          <a href="/testimonials" class="on-page">Shop</a>
         </li>
         <li>
-          <a href="/booking" class="on-page">Book</a>
-        </li>
+        <a href="https://www.instagram.com/beetsnthyme/" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+      <li>
+        <a href="about#contact">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
       <ul>
     </div>
   </nav>
@@ -125,21 +142,27 @@
 
 <!-- FOOTER -->
 
-<footer class="grid">
+<footer class="grid padded-1 dark-bg">
   <!-- column -->
-  <div class="col-12_sm-12-middle padded centered">
-    <nav class="inline socials">
-      <a href="https://www.facebook.com/beetsnthyme/?ref=page_internal" target="_blank">
-        <i class="fab fa-facebook-square"></i>
-      </a>
-      <a href="https://www.instagram.com/beetsnthyme/" target="_blank">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="about#contact">
-        <i class="fas fa-envelope"></i>
-      </a>
-    </nav>
+  <div class="col-5_sm-12-middle padded-1">
+    <h2>Sign-ups for tips, tricks, & home-life goodness</h2>
+
+  <form class="email-signup padded-1" action="https://formspree.io/your@email.com" method="POST">
+    <input type="email" name="_replyto" placeholder="Your Email">
+    <input type="submit" value="Subscribe" class="button-solid">
+  </form>
+  <p class="emphasis"> Give Mina a Shout</p>
+  <p>BeetsnThyme@gmail.com
   </div>
+
+
+  <div class="col"> </div>
+
+  <div class="col-5_sm-12-middle padded-1 centered">
+    <!-- INSTAGRAM EMBED HERE -->
+    <img  src="/images/embed2.png" width="80%"  alt="Beets Insta" />
+  </div>
+
 </footer>
 
 </body>

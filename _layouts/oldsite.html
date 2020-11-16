@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <!-- Meta Data -->
+    <meta charset="utf-8">
+
+    <!-- Meta data for SEO purposes. -->
+    <title> Beets N Thyme </title>
+    <meta name="description" content="{{page.meta-description}}">
+    <meta name="keywords" content="{{page.meta-keywords}}">
+
+    <!-- meta data to tell the browser that your devide is responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+    <!--  Social media sharing META Tags -->
+    <meta property="og:title" content="{{page.title}}">
+    <meta property="og:description" content="{{page.meta-description}}">
+    <meta property="og:image" content="{{page.featured-image_path}}">
+    <meta property="og:url" content="{{page.url}}">
+    <meta name="twitter:card" content="{{page.meta-description}}">
+    <meta name="og:site_name" content="<!-- ADD SITE NAME HERE -->">
+
+  <!-- end of meta tags -->
+
+    <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- Gridlex -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css"></link>
+
+    <!-- Font Awesome Version 5 for Icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
+
+    <!-- MAGNIFIC POPUP -  for lightbox galleries   -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+
+    <!-- CUSTOM STYLE SHEET -->
+    <link rel="stylesheet" href="/assets/style.css"/>
+    <link rel="stylesheet" href="/assets/custom.css"/>
+
+    <!-- W3 Slideshow -->
+    <title>W3.CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta co
+    ntent="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/png" href="/images/bntfav.png">
+
+</head>
+<body>
+
+<!-- HEADER #4 -->
+<header class="grid-center mob-hide-header">
+<nav class="col-5-middle right">
+    <a href="about"> About </a>
+    <a href="services"> Services </a>
+  </nav>
+  <div class="col-2-middle ">
+    <a href="/">
+    <img class="grid-center-middle center centered" width="100%" src="/images/bnt-logo.png"  alt="Beets" />
+    </a>
+  </div>
+  <nav class="col-5-middle ">
+    <a href="testimonials"> Testimonials </a>
+    <a href="booking"> Book </a>
+  </nav>
+</header>
+
+<section class="grid desktop-hide ">
+
+  <div class="col-3 center padded ">
+    <a href="/">
+    <img class="grid-center-middle center centered" width="100%" src="/images/bnt-logo.png"  alt="Beets" />
+    </a>
+  </div>
+
+<nav class="top">
+    <div class="burger-button">
+        <span class="burger-top"></span>
+        <span class="burger-middle"></span>
+        <span class="burger-bottom"></span>
+    </div>
+     <div class="burger-menu center centered">
+      <ul>
+        <li>
+        <a href="/">
+        <img  src="/images/bnt-logo.png"  width="16%" alt="Beets" />
+        </a>
+        </li>
+        <li>
+          <a href="/about">About</a>
+        </li>
+        <li>
+          <a href="/services">Services</a>
+        </li>
+        <li>
+          <a href="/testimonials" class="on-page">Testimonials</a>
+        </li>
+        <li>
+          <a href="/booking" class="on-page">Book</a>
+        </li>
+      <ul>
+    </div>
+  </nav>
+</section>
+
+    {{content}}
+
+
+
+    <!-- adds jQuery library to your site -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+
+    <!-- adds Magnific Popups javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+
+    <!-- this is your custom javascript/jQuery file -->
+    <script src="/assets/main.js"></script>
+
+<!-- FOOTER -->
+
+<footer class="grid">
+  <!-- column -->
+  <div class="col-12_sm-12-middle padded centered">
+    <nav class="inline socials">
+      <a href="https://www.facebook.com/beetsnthyme/?ref=page_internal" target="_blank">
+        <i class="fab fa-facebook-square"></i>
+      </a>
+      <a href="https://www.instagram.com/beetsnthyme/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="about#contact">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

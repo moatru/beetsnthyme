@@ -1,67 +1,106 @@
 ---
 layout: default
 ---
-<!-- HOMEPAGE/SLIDESHOW -->
-<div class="w3-content w3-section centered center bottom" style="max-width:80%">
-  <img class="mySlides" src="/images/home3.jpg" style="width:100%">
-  <img class="mySlides" src="/images/home1.jpg" style="width:100%">
-  <img class="mySlides" src="/images/home2.jpg" style="width:100%">
-</div>
+<!-- WELCOME TO MINA'S -->
+<section class="grid padded dark-bg bg-imagel">
 
-<script>
-var myIndex = 0;
-carousel();
+  <div class="col"> </div>
 
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}
-  x[myIndex-1].style.display = "block";
-  setTimeout(carousel, 2000); // Change image every 2 seconds
-}
-</script>
-
-<!-- FIRST TEXT SECTION -->
-<section class="grid-centered padded centered">
-  <div class="col-10_sm-12">
+  <!-- TEXT -->
+  <div class="col-6_sm-12-middle padded-1">
     <h2> Feel Good Food </h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+      iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </div>
 
-<!-- SERVICES GRID -->
-  <!-- <h2> What We Do </h2> -->
-  <div class="grid padded-1">
-    <div class="col-4_sm-8 centered center padded-1">
-      <!-- <i class="far fa-building"></i> -->
-      <img src="/images/6.png" width="90%" alt="NewOrleans Mina" class="editable">
-      <h4>Catering</h4>
-      <p class="justify">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-    </div>
+  <!-- PHOTO -->
+  <div class="col-4-center-middle centered center padded-1">
+    <!-- <i class="far fa-building"></i> -->
+    <img src="/images/mina.png" width="100%" alt="NewOrleans Mina" class="editable">
+  </div>
+</section>
 
-    <div class="col-4_sm-8 centered center padded-1">
-      <!-- <i class="far fa-comment"></i> -->
-      <img src="/images/5.png" width="90%" alt="NewOrleans Mina" class="editable">
 
-      <h4>Pop-Ups</h4>
-      <p class="justify">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
+<!-- THE GARDEN -->
+<section class="grid padded light-bg bg-imager">
 
-    <div class="col-4_sm-8 centered center padded-1">
-      <!-- <i class="far fa-file"></i> -->
-      <img src="/images/4.png" width="90%" alt="NewOrleans Mina" class="editable">
-      <h4>Homade Goods</h4>
-      <p class="justify">Irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-    </div>
+  <!-- PHOTO -->
+  <div class="col-4-center-middle centered center padded-1">
+    <!-- <i class="far fa-building"></i> -->
+    <img src="/images/garden.png" width="100%" alt="NewOrleans Mina" class="editable">
   </div>
 
-  <!-- CALL TO ACTION BUTTON -->
-  <div class="col-6 padded">
-  <a href="booking" class="button">Cook with Us</a>
-  <br>
-  <br>
+  <!-- TEXT -->
+  <div class="col-6_sm-12-middle padded-1">
+    <h2> The Garden </h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+    <h6>Classes</h6>
+    <p>
+      - one to none <br><br>
+      - zoom <br><br>
+      - group
+    </p>
+
+    <!-- CALL TO ACTION BUTTON -->
+    <a href="booking" class="button-inverted">Cook with Us</a>
   </div>
+
+  <div class="col"> </div>
+
+</section>
+
+  <!-- THE KITCHEN -->
+<section class="grid padded dark-bg bg-imagel" style="background-image:url('/images/kitchen-plant.png')">
+
+  <div class="col"> </div>
+
+  <!-- TEXT -->
+  <div class="col-6_sm-12-middle padded-1">
+    <h2> The Kitchen </h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+    <h6>Classes</h6>
+    <p>
+      - one to none <br><br>
+      - zoom <br><br>
+      - group
+    </p>
+
+    <!-- CALL TO ACTION BUTTON -->
+    <a href="booking" class="button-solid">Cook with Us</a>
+  </div>
+
+  <!-- PHOTO -->
+  <div class="col-4-center-middle centered center padded-1">
+    <!-- <i class="far fa-building"></i> -->
+    <img src="/images/kitchen.png" width="100%" alt="NewOrleans Mina" class="editable">
+  </div>
+</section>
+
+
+<!-- THE STUDIO -->
+<section class="grid padded light-bg bg-imager" style="background-image:url('/images/studio-plant.png')">
+
+  <!-- PHOTO -->
+  <div class="col-4-center-middle centered center padded-1">
+    <!-- <i class="far fa-building"></i> -->
+    <img src="/images/studio.png" width="100%" alt="NewOrleans Mina" class="editable">
+  </div>
+
+  <!-- TEXT -->
+  <div class="col-6_sm-12-middle padded-1">
+    <h2> The Garden </h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+    <h6>Classes</h6>
+    <p>
+      - one to none <br><br>
+      - zoom <br><br>
+      - group
+    </p>
+
+    <!-- CALL TO ACTION BUTTON -->
+    <a href="booking" class="button-inverted">Cook with Us</a>
+  </div>
+
+  <div class="col"> </div>
+
 </section>
