@@ -16,9 +16,9 @@
   }
 
   body {
-    font-family: 'Karla', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     color: #251A18;
-    background-color: #FFFFF;
+    background-color:#FFFFF;
   }
 
    /* this overrides the default padding and margin on gridlex elements */
@@ -33,7 +33,7 @@
   .centered {  text-align: center;   }
   .justify {   text-align: justify;   }
 
-  .padded   {  padding: 2% 5% 2% 5%;    }
+  .padded   {  padding: 5%;    }
   .padded-1 {  padding: 1rem;  }
   .padded-2 {  padding: 2rem;  }
   .bottom {padding-bottom: 3rem;}
@@ -43,8 +43,8 @@
   .tall-50  {  min-height: 50vh;   }
   .tall-100 {  min-height: 100vh;  }
 
-  .dark-bg      {  background-color: #8CB771; color:#FFF0EB;     }
-  .light-bg     {  background-color: #E6EAD6;  }
+  .dark-bg      {  background-color: #38082E; color:white;     }
+  .light-bg     {  background-color: #C59CA0; color: #8A1B4E; }
   .featured-bg  {  background-color: #E6EAD6;       }
 
   .light-text   { color: white; }
@@ -55,16 +55,16 @@
   h2, h3, h4, h5, h6 {
     line-height: 1;
     margin-bottom: 0.8rem;
-    font-family: 'Averia Serif Libre', cursive;
-    color: #570100;
-  }
+    font-family: 'Lexend Deca', sans-serif;
+    color: #CFD11A;
+    letter-spacing: 2px;  }
 
   h2  { font-size: 2rem;  }
   h3  { font-size: 2rem; color: #251A18;  }
   h4  { font-size: 1.4rem;  }
   h5 {font-size: 1.4rem; color: #251A18;}
-  h6 {font-size: 1.2rem; color: #251A18;}
-  p   { font-size: 1rem;  }
+  h6 {font-size: 1rem; color: #8a1b4e;}
+  p   { font-size: .8rem;  }
 
   p, ul {
      margin-bottom: 0.8rem;
@@ -145,7 +145,7 @@
     font-weight: 500;
     transition: all 1s;
     border-radius: 8px;
-    font-family: 'Averia Serif Libre', cursive;
+    font-family: 'Lexend Deca', sans-serif;
 
   }
 
@@ -198,7 +198,8 @@
   /* Headers and footers */
 
   header {
-    padding: 2% 5%;
+    padding: 2% 2%;
+    background-color: #38082E;
   }
 
   header a,
@@ -211,13 +212,13 @@
   header nav a,
   .inline a {
     display: inline-block;
-    padding: 0.5rem 2.6rem;
-    font-size: 1rem;
-    font-family: 'Averia Serif Libre', cursive;
+    padding: 0.5rem .5rem;
+    font-size: .8rem;
+    font-family: 'Lexend Deca', sans-serif;
     font-weight: 700;
-    color: #570100;
-    text-transform: uppercase;
-    background-color: white;
+    color: white;
+    /* text-transform: uppercase; */
+    background-color: ;
     transition:all 1s;
     z-index: 202020202020202020;
     /* text-shadow: 3px 3px rgba(195, 191, 188, 0.6); */
@@ -371,14 +372,23 @@
     background-position: left;
   }
 
-  .bg-image {
-    background-image: url('../images/adventure.jpg');
-    background-size: cover;
-    background-position: center;
-    min-height: 10rem;
+  .bg-imagel {
+    background-image: url('../images/hero-plant.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    min-height: 5rem;
   }
-  /* Hover grid */
 
+  .bg-imager {
+    background-image: url('../images/garden-plant.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    min-height: 5rem;
+  }
+
+  /* Hover grid */
   .hover-container {
     background-size: cover;
     background-position: center;
@@ -505,7 +515,7 @@
     width: 100%;
     font-size: 1rem;
     vertical-align: top;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
   }
 
   input:focus,
@@ -731,7 +741,7 @@
 /* This media query kicks into action at the gridlex m breakpoint */
 @media(max-width:1024px) {
 	header nav a{
-    padding: .5rem 1.8rem;
+    padding: .5rem .5rem;
   }
 }
 
@@ -755,7 +765,7 @@
   }
 
   header nav a{
-    padding: .5rem 1rem;
+    padding: .5rem .5rem;
   }
 
   .capped-width {
