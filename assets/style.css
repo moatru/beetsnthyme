@@ -156,7 +156,9 @@
   }
 
   .button:hover {
-    background-color: #C4B6C1;
+    color: #38082e;
+    background-color: #AE1E53;
+    transition: all 1s;
   }
 
   .button.inverted {   /* this is for a button on a dark background */
@@ -164,9 +166,9 @@
     color: white;
   }
 
-  .button.inverted:hover {
-    color: #AE1E53;
-    border-color: #AE1E53;
+  .button-inverted:hover {
+    color: #38082e;
+    background-color: #AE1E53;
   }
 
   .button-solid {
