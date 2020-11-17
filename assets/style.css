@@ -134,17 +134,16 @@
   .button-solid,
   .button-inverted {
     text-decoration: none;
-    color: #FFF0EB;
-    background-color: #AE1E53;
+    color: #38082e;
+    background-color: #c59ca0;
     /* border: 2px solid; */
-    padding: 0.6rem 2rem;
+    padding: 0.5rem 1.5rem;
     margin-top: 1rem;
     display: inline-block;
-    text-transform: uppercase;
     font-size: 0.9rem;
     font-weight: 500;
     transition: all 1s;
-    border-radius: 8px;
+    border-radius: 4px;
     font-family: 'Lexend Deca', sans-serif;
 
   }
@@ -164,9 +163,11 @@
   }
 
   .button-solid {
-    background-color: #C4B6C1;
-    border-color: #C4B6C1;
-    color: white;
+    background-color: #C59CA0;
+    border-color: #38082e;
+    color: #38082e;
+    border-width: 2px;
+    border-style:solid;
   }
 
   .button-solid:hover {
@@ -374,7 +375,7 @@
 
   .bg-imagel {
     background-image: url('../images/hero-plant.png');
-    background-size: contain;
+    background-size: 30%;
     background-repeat: no-repeat;
     background-position: bottom left;
     min-height: 5rem;
@@ -382,7 +383,7 @@
 
   .bg-imager {
     background-image: url('../images/garden-plant.png');
-    background-size: contain;
+    background-size: 30%;
     background-repeat: no-repeat;
     background-position: bottom right;
     min-height: 5rem;
@@ -755,6 +756,13 @@
   .hamburger{
     display: block;
   }
+
+  .bg-imagel {
+    background-size: 40%;
+  }
+
+  .bg-imager {
+    background-size: 40%;}
 
   .blog-item-wide .bg-image{
     padding-bottom: 60%;

@@ -32,7 +32,7 @@
 
 .dropdown-content a {
   display:block;
-  padding:5px 25px 5px 5px;
+  padding:5px 15px 5px 5px;
   text-align:left;
   font-weight: 400;
   white-space:nowrap;
@@ -70,8 +70,8 @@ padding: 8px;
 /*this is where you can change the color of the buttons*/
 .burger-button span{
 width: 25px;
-border: 2px solid #570100;
-background-color: #570100;
+border: 2px solid #cfd11a;
+background-color: #cfd11a;
 display: block;
 border-radius: 22px;
 transition: 2s;
@@ -134,7 +134,7 @@ transform: rotateZ(-45deg);
   font-weight: 300;
   color: white;
   text-transform: none;
-  font-family: 'Averia Serif Libre', cursive;
+  font-family: 'Lexend Deca', sans-serif;
   display:block;
   padding:5px 15px;
   text-align:center;
@@ -208,6 +208,9 @@ h3.menus{
 .mob-hide-header {
   display: none;
 }
+
+.mob-centered {
+  text-align: center;}
 
 .desktop-hide {
   display: block;
