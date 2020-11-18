@@ -48,7 +48,7 @@
   .featured-bg  {  background-color: #E6EAD6;       }
 
   .light-text   { color: white; }
-  .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
+  .flex-flip:nth-child(2n){  flex-direction: column-reverse; }
 
   /* General typography */
 
@@ -570,8 +570,7 @@
 
    @media(max-width:768px) {
      .email-signup input {
-       width: 100%;
-       max-width: 100%;
+       max-width: 60%;
      }
    }
 
@@ -769,7 +768,7 @@
   }
 
   .bg-imagel {
-    background-size: 40%;
+    background-size: 30%;
   }
 
   .bg-imager {
@@ -791,7 +790,7 @@
     width: 100%;
   }
   .flex-flip{
-    flex-direction: row;
+    flex-direction: column-reverse;
   }
 
   /* .justify {text-align: center;}
