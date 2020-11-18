@@ -33,7 +33,7 @@
   .centered {  text-align: center;   }
   .justify {   text-align: justify;   }
 
-  .padded   {  padding: 5%;    }
+  .padded   {  padding: 8% 5%;    }
   .padded-1 {  padding: 1rem;  }
   .padded-2 {  padding: 2rem;  }
   .bottom {padding-bottom: 1.5rem;}
