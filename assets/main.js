@@ -23,7 +23,7 @@ $(document).ready(function() {
   function scrollFunction() {
     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
       document.getElementById("navbar").style.padding = "5px 1%";
-      document.getElementById("logo").style.width = "50%";
+      document.getElementById("logo").style.width = "55%";
     } else {
       document.getElementById("navbar").style.padding = "20px 1%";
       document.getElementById("logo").style.width = "100%";
