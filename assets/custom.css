@@ -41,10 +41,10 @@
 
 .dropdown-nav {
   position:relative;
+  transition: 1s;
 }
 .dropdown-nav:hover .dropdown-content {
     display: block;
-    transition: all 3s;
 }
 
 .dropdown-content a:hover{
