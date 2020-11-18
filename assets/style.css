@@ -283,17 +283,17 @@
 
   header.fixed {
     position: fixed;
-    background-color: #f9ca24;
+    padding: 2% 2%;
+    background-color: #38082E;
     top:0;
     left:0;
     right:0;
     z-index: 2;
     margin:0;
-    padding: 1%;
     text-align: center;
   }
   .bump-for-header {
-    min-height: 4rem;
+    min-height: 9rem;
   }
 
 
