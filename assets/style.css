@@ -783,9 +783,9 @@
     margin: -0.5rem;
   }
 
-  header nav a{
+  /* header nav a{
     padding: .5rem .5rem;
-  }
+  } */
 
   .capped-width {
     width: 100%;
@@ -794,9 +794,9 @@
     flex-direction: row;
   }
 
-  .justify {text-align: center;}
+  /* .justify {text-align: center;}
 
-  .right {text-align: center;}
+  .right {text-align: center;} */
 
   .mob-center {text-align: center;}
 
@@ -807,9 +807,9 @@
 } /* end media query */
 
 @media(max-width:627px) {
-  header nav a{
+  /* header nav a{
     padding: .5rem 2rem;
-  }
+  } */
 
 
 }
