@@ -15,10 +15,6 @@
   display: none;
 }
 
-/* header{
-  background-color: white;
-  z-index: 9999999999;
-} */
 
 /* DROP DOWN NAV  */
 .dropdown-content {
@@ -28,27 +24,31 @@
     left:10px;
     padding:2px;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    transition: all 1s;
 }
 
 .dropdown-content a {
   display:block;
-  padding:5px 15px 5px 5px;
+  padding:5px 35px 5px 5px;
   text-align:left;
   font-weight: 400;
   white-space:nowrap;
   color: white;
+  transition: all 1s;
 }
 
 .dropdown-nav {
   position:relative;
-  transition: 1s;
+  transition: all 1s;
 }
 .dropdown-nav:hover .dropdown-content {
     display: block;
+    transition: all  1s;
 }
 
 .dropdown-content a:hover{
   color: #cfd11a;
+  transition: all 1s;
 }
 
 /* DESKTOP NAV SHRINK */
@@ -69,127 +69,6 @@ footer {
   background-color: #FFFFF;
 }
 
-
-/* Hamburger Menu */
-/* this is where you style the button if you want to add more space between the spans than add padding to this div but make sure you also add it to the top and bottom active classes on there top/bottom or else your cross wont line up*/
-.burger-button {
-position:fixed;
-top: 2vh;
-right: 2vh;
-z-index: 9999999998;
-padding: 8px;
-}
-
-/*this is where you can change the color of the buttons*/
-.burger-button span{
-width: 25px;
-border: 2px solid #cfd11a;
-background-color: #cfd11a;
-display: block;
-border-radius: 22px;
-transition: 2s;
-}
-.burger-button.active span{
-border-color: #AE1E53;
-background-color:#AE1E53;
-}
-
-.burger-top, .burger-bottom{
-position: absolute;
-}
-
-.burger-top{
-top: 02px;
-}
-
-.burger-bottom{
-bottom: 02px;
-}
-/* make sure this has the same top as the burger button has padding*/
-.burger-button.active .burger-top{
-position: absolute;
-top: 8px;
-transform: rotateZ(45deg);
-}
-
-.burger-button.active .burger-middle{
-transform: rotateZ(270deg);
-border-color: rgba(0,0,0,0);
-background-color:rgba(0,0,0,0);
-}
-
-/* make sure this has the same bottom as the burger button has padding*/
-
-.burger-button.active .burger-bottom{
-position: absolute;
-bottom: 8px;
-transform: rotateZ(-45deg);
-}
-
-
-.burger-menu {
-  display: none;
-  position: fixed;
-  top: 0;
-  left:0;
-  right: 0;
-  min-height: 5rem;
-  background-color: #38082E;
-  padding:5px;
-  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
-  z-index: 99999999;
-}
-
-.burger-menu a {
-  text-decoration: none;
-  padding: 15px 11px;
-  font-size: 15x;
-  color: white;
-  text-transform: none;
-  font-family: 'Lexend Deca', sans-serif;
-  display: block;
-  padding:5px 15px;
-  text-align:center;
-  white-space:nowrap;
-}
-
-.burger-menu li{list-style:none}
-/*
-.dropdown-nav:hover .dropdown-content {
-  display: block;
-} */
-
-/* BOOKING ILLUSTRATIONS */
-.illustration1 {
-  background-image: url('../images/10.png');
-  background-size: contain;
-  background-position: left bottom;
-  background-repeat: no-repeat;
-  min-height: 4rem;
-
-}
-
-.illustration2 {
-  background-image: url('../images/9.png');
-  background-size: 20%;
-  background-position: 95% top;
-  background-repeat: no-repeat;
-}
-
-
-
-/* HOME PAGE SLIDESHOW */
-.mySlides {display:none;}
-.w3-section,{margin-top:16px!important;margin-bottom:16px!important}
-.w3-content{margin-left:auto;margin-right:auto;}
-.w3-content{max-width:100%;}
-.w3-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
-
-/* MENUS POP UP AND HOVER */
-h3.menus{
-  color: (0, 0, 0, 0);
-}
-
 /* SOCIAL LINKS/ICONS */
 .fab, .fas{
   font-size: 1rem;
@@ -198,13 +77,8 @@ h3.menus{
 }
 
 .fab:hover, .fas:hover{
-  color: #7A4366;
+  color: #AE1E53;
   transition: all 1s;
-}
-
-@media(max-width:950px) {
-
-
 }
 
 
